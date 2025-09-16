@@ -16,7 +16,6 @@
  */
 
 /**
- * Converts a string to dot.case notation.
  *
  * This function transforms the input string into dot.case format.
  * It replaces spaces, dashes, underscores, and camelCase boundaries with dots,

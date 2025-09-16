@@ -10,5 +10,4 @@
  * @returns {string} The camelCase version of the input string.
  */
 function toCamelCase(str) {
-    // implementation here
 }

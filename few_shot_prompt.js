@@ -1,6 +1,5 @@
 /**
  * Converts a string to camel case notation.
- * Handles spaces, dashes, underscores, and mixed casing.
  * Example: "hello_world-test string" => "helloWorldTestString"
  * @param {string} str
  * @returns {string}

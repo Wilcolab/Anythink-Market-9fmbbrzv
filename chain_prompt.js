@@ -6,7 +6,7 @@ function toKebabCase(str) {
         .toLowerCase() // Convert to lowercase
         .split(' ') // Split into words
         .filter(Boolean) // Remove empty strings
-        .join('-'); // Join with hyphens
+        .join('-'); 
 }
 
 // Example usage:
