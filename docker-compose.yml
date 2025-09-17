@@ -7,3 +7,14 @@ services:
       - 8000:8000
     volumes:
       - ./python-server/src:/app/src
+
+  node-server:
+    build:
+      context: ./my-express-app
+      dockerfile: Dockerfile
+    ports:
+      - 8001:8001
+    volumes:
+      - ./my-express-app/src:/usr/src/app/src
+      - ./my-express-app/package.json:/usr/src/app/package.json
+      - ./my-express-app/yarn.lock:/usr/src/app/yarn.lock
